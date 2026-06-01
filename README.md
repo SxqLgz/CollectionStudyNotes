@@ -1,0 +1,2 @@
+# CollectionStudyNotes
+Java Collection，Map详细学习笔记，记录了Collection和Map的各个实现类之间的源码对比，所有方法的使用以及细节注意点和底层逻辑逻辑，目前在持续更新中
