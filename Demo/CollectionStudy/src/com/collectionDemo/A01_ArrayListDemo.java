@@ -41,8 +41,8 @@ public class A01_ArrayListDemo {
         //方法：判断是否包含
         boolean result1 = collection.contains("zhangsan");
         boolean result2 = collection.contains("lisi");
-        System.out.println(result1);
-        System.out.println(result2);
+        System.out.println(result1);//false
+        System.out.println(result2);//ture
         /**注意点：contain方法底层是通过遍历集合中所有的元素，使用equals方法比较进行的判断
          * 如果集合中添加的是自定义对象类，则必须在自定义类中重写equals方法，
          * 如下，在Preson对象类中并没有重写equals方法，所以即使判断的元素是一模一样的，contain方法依旧是返回的false
@@ -60,10 +60,10 @@ public class A01_ArrayListDemo {
         System.out.println(coll.contains(p3));//此处输出false，即使元素内容一模一样，如果此处重写了equals则输出ture
 
         //方法：判断是否为空
-        System.out.println(collection.isEmpty());
+        System.out.println(collection.isEmpty());//false
 
         //方法：返回集合大小
-        System.out.println(collection.size());
+        System.out.println(collection.size());//2
 
         //方法：清空
         collection.clear();
