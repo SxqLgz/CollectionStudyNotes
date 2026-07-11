@@ -1,6 +1,6 @@
-package com.collectionDemo;
+package com.Collection.collectionDemo;
 
-import com.Bean.Person;
+import com.Collection.Bean.Person;
 
 import java.util.ArrayList;
 import java.util.Collection;
